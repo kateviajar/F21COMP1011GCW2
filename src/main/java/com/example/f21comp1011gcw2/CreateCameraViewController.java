@@ -42,7 +42,7 @@ public class CreateCameraViewController implements Initializable {
         makeComboBox.getItems().addAll(cameraBrands); //add the brands list to ComboBox
 
         //set up Spinner range, and set it is editable
-        SpinnerValueFactory<Integer> mgSpinnerValues = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 50, 1);
+        SpinnerValueFactory<Integer> mgSpinnerValues = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 50, 0, 1);
         megaPixelsSpinner.setValueFactory(mgSpinnerValues);
         megaPixelsSpinner.setEditable(true);
     }
