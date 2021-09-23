@@ -1,0 +1,10 @@
+.root{
+    -fx-background-color: #607D8B;
+    -fx-font-family: Verdana;
+    -fx-font-size: 20px;
+}
+
+#header{
+    -fx-font-size: 60px;
+    -fx-text-fill: #FF9800;
+}
