@@ -17,7 +17,7 @@
          <center>
             <BarChart fx:id="barChart" BorderPane.alignment="CENTER">
               <xAxis>
-                <CategoryAxis fx:id="CameraAxis" side="BOTTOM" />
+                <CategoryAxis fx:id="cameraAxis" side="BOTTOM" />
               </xAxis>
               <yAxis>
                 <NumberAxis fx:id="salesAxis" side="LEFT" />
